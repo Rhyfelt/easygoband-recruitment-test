@@ -1,0 +1,21 @@
+{
+  "name": "easygobandtesteliasberumendeharo",
+  "version": "1.0.0",
+  "description": "Test easygoband",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest --watch"
+  },
+  "author": "Elias Berumen de Haro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
